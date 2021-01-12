@@ -14,6 +14,8 @@
 		CABEF2C825AE105500368C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABEF2C725AE105500368C18 /* Assets.xcassets */; };
 		CABEF2D625AE105500368C18 /* BottomTabLayoutTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF2D525AE105500368C18 /* BottomTabLayoutTestTests.swift */; };
 		CABEF2E125AE105500368C18 /* BottomTabLayoutTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF2E025AE105500368C18 /* BottomTabLayoutTestUITests.swift */; };
+		CABEF2FE25AE169200368C18 /* Tab1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF2FD25AE169200368C18 /* Tab1ViewController.swift */; };
+		CABEF30325AE16C400368C18 /* Tab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF30225AE16C400368C18 /* Tab2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CABEF2DC25AE105500368C18 /* BottomTabLayoutTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottomTabLayoutTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABEF2E025AE105500368C18 /* BottomTabLayoutTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabLayoutTestUITests.swift; sourceTree = "<group>"; };
 		CABEF2E225AE105500368C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABEF2FD25AE169200368C18 /* Tab1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1ViewController.swift; sourceTree = "<group>"; };
+		CABEF30225AE16C400368C18 /* Tab2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				CABEF2C725AE105500368C18 /* Assets.xcassets */,
 				CABEF2CC25AE105500368C18 /* Info.plist */,
 				CABEF2C425AE105200368C18 /* BottomTabLayoutTest.xcdatamodeld */,
+				CABEF2FD25AE169200368C18 /* Tab1ViewController.swift */,
+				CABEF30225AE16C400368C18 /* Tab2ViewController.swift */,
 			);
 			path = BottomTabLayoutTest;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			files = (
 				CABEF2C625AE105200368C18 /* BottomTabLayoutTest.xcdatamodeld in Sources */,
 				CABEF2C025AE105200368C18 /* ViewController.swift in Sources */,
+				CABEF2FE25AE169200368C18 /* Tab1ViewController.swift in Sources */,
+				CABEF30325AE16C400368C18 /* Tab2ViewController.swift in Sources */,
 				CABEF2BC25AE105200368C18 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

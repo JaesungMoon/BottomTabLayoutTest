@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  Tab1ViewController.swift
 //  BottomTabLayoutTest
 //
 //  Created by JaesungMoon on 2021/01/13.
@@ -7,14 +7,11 @@
 
 import UIKit
 
-class ViewController: UITabBarController {
-
+class Tab1ViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print("ViewController:viewDidLoad")
-        
+        print("Tab1ViewController:viewDidLoad")
     }
-
 }
 
