@@ -70,14 +70,14 @@
                     <connections>
                         <segue destination="YuL-x2-lYX" kind="relationship" relationship="viewControllers" id="7j7-Dq-i7W"/>
                         <segue destination="kSS-lD-T6D" kind="relationship" relationship="viewControllers" id="muO-OQ-GRs"/>
-                        <segue destination="hLV-Pw-7Cx" kind="relationship" relationship="viewControllers" id="0KA-CH-AeU"/>
                         <segue destination="zji-FZ-NKl" kind="relationship" relationship="viewControllers" id="LMY-uv-bQG"/>
-                        <segue destination="FLW-HI-D0b" kind="relationship" relationship="viewControllers" id="Jvb-yR-dJp"/>
+                        <segue destination="hLV-Pw-7Cx" kind="relationship" relationship="viewControllers" id="3aY-nW-uaH"/>
+                        <segue destination="FLW-HI-D0b" kind="relationship" relationship="viewControllers" id="YOB-K5-Teq"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BrI-Kc-y0J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="154" y="48"/>
+            <point key="canvasLocation" x="-197" y="30"/>
         </scene>
         <!--Item 4-->
         <scene sceneID="9MI-Zm-0dw">
@@ -124,6 +124,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 3" id="aRl-hO-Q1I"/>
+                    <connections>
+                        <outlet property="navItem" destination="ecR-ZZ-Lab" id="nSG-rQ-QCv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdK-Hy-jkQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
