@@ -12,6 +12,7 @@ class Tab2ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Tab2ViewController:viewDidLoad")
+        view.backgroundColor = .orange
     }
 }
 

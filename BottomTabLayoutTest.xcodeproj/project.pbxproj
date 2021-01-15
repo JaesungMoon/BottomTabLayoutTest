@@ -16,6 +16,9 @@
 		CABEF2E125AE105500368C18 /* BottomTabLayoutTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF2E025AE105500368C18 /* BottomTabLayoutTestUITests.swift */; };
 		CABEF2FE25AE169200368C18 /* Tab1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF2FD25AE169200368C18 /* Tab1ViewController.swift */; };
 		CABEF30325AE16C400368C18 /* Tab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF30225AE16C400368C18 /* Tab2ViewController.swift */; };
+		CABEF30825B203AC00368C18 /* Tab3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF30725B203AB00368C18 /* Tab3ViewController.swift */; };
+		CABEF30D25B203CE00368C18 /* Tab4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF30C25B203CE00368C18 /* Tab4ViewController.swift */; };
+		CABEF31225B203DB00368C18 /* Tab5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF31125B203DB00368C18 /* Tab5ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		CABEF2E225AE105500368C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CABEF2FD25AE169200368C18 /* Tab1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1ViewController.swift; sourceTree = "<group>"; };
 		CABEF30225AE16C400368C18 /* Tab2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2ViewController.swift; sourceTree = "<group>"; };
+		CABEF30725B203AB00368C18 /* Tab3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab3ViewController.swift; sourceTree = "<group>"; };
+		CABEF30C25B203CE00368C18 /* Tab4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab4ViewController.swift; sourceTree = "<group>"; };
+		CABEF31125B203DB00368C18 /* Tab5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab5ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				CABEF2C425AE105200368C18 /* BottomTabLayoutTest.xcdatamodeld */,
 				CABEF2FD25AE169200368C18 /* Tab1ViewController.swift */,
 				CABEF30225AE16C400368C18 /* Tab2ViewController.swift */,
+				CABEF30725B203AB00368C18 /* Tab3ViewController.swift */,
+				CABEF30C25B203CE00368C18 /* Tab4ViewController.swift */,
+				CABEF31125B203DB00368C18 /* Tab5ViewController.swift */,
 			);
 			path = BottomTabLayoutTest;
 			sourceTree = "<group>";
@@ -260,10 +269,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CABEF30D25B203CE00368C18 /* Tab4ViewController.swift in Sources */,
+				CABEF30825B203AC00368C18 /* Tab3ViewController.swift in Sources */,
 				CABEF2C625AE105200368C18 /* BottomTabLayoutTest.xcdatamodeld in Sources */,
 				CABEF2C025AE105200368C18 /* ViewController.swift in Sources */,
 				CABEF2FE25AE169200368C18 /* Tab1ViewController.swift in Sources */,
 				CABEF30325AE16C400368C18 /* Tab2ViewController.swift in Sources */,
+				CABEF31225B203DB00368C18 /* Tab5ViewController.swift in Sources */,
 				CABEF2BC25AE105200368C18 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

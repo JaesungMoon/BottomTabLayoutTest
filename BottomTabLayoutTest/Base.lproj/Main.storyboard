@@ -15,6 +15,15 @@
                     <view key="view" contentMode="scaleToFill" id="8pV-FJ-hFl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sOX-SZ-EBb">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="oDV-Kj-1L1"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="rqm-Y1-KSD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -22,7 +31,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oJ2-9o-iSM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1043" y="352"/>
+            <point key="canvasLocation" x="925" y="433"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="zGW-LZ-gXR">
@@ -31,6 +40,15 @@
                     <view key="view" contentMode="scaleToFill" id="kS1-7y-w9e">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nb3-K2-SpO">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="Epb-xW-dYS"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="5nz-Nt-w3d"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -38,7 +56,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="erI-Xf-Fvm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1042" y="-347"/>
+            <point key="canvasLocation" x="925" y="-302"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6xR-oS-JDc">
@@ -52,11 +70,89 @@
                     <connections>
                         <segue destination="YuL-x2-lYX" kind="relationship" relationship="viewControllers" id="7j7-Dq-i7W"/>
                         <segue destination="kSS-lD-T6D" kind="relationship" relationship="viewControllers" id="muO-OQ-GRs"/>
+                        <segue destination="hLV-Pw-7Cx" kind="relationship" relationship="viewControllers" id="0KA-CH-AeU"/>
+                        <segue destination="zji-FZ-NKl" kind="relationship" relationship="viewControllers" id="LMY-uv-bQG"/>
+                        <segue destination="FLW-HI-D0b" kind="relationship" relationship="viewControllers" id="Jvb-yR-dJp"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BrI-Kc-y0J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="154" y="48"/>
+        </scene>
+        <!--Item 4-->
+        <scene sceneID="9MI-Zm-0dw">
+            <objects>
+                <viewController id="hLV-Pw-7Cx" customClass="Tab4ViewController" customModule="BottomTabLayoutTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HUZ-Qh-jN5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x5r-Ob-Zcw">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="NWa-BR-FSf"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2jH-9O-9yN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 4" id="7F4-5F-ggo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sgV-uV-Peo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1726" y="48"/>
+        </scene>
+        <!--Item 3-->
+        <scene sceneID="JQI-74-Doj">
+            <objects>
+                <viewController id="zji-FZ-NKl" customClass="Tab3ViewController" customModule="BottomTabLayoutTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OFc-Dr-ov3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V7t-3N-fbx">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="ecR-ZZ-Lab"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mWN-jb-inC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 3" id="aRl-hO-Q1I"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hdK-Hy-jkQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1725" y="-688"/>
+        </scene>
+        <!--Item 5-->
+        <scene sceneID="avF-kg-6fs">
+            <objects>
+                <viewController id="FLW-HI-D0b" customClass="Tab5ViewController" customModule="BottomTabLayoutTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EBF-Gp-fYR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R4X-0j-bJN">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="Nse-D4-JSI"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dPV-2B-c8j"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 5" id="xIH-ZW-STb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rLb-h5-NhK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1725" y="782"/>
         </scene>
     </scenes>
     <resources>

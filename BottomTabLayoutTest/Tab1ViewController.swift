@@ -12,6 +12,8 @@ class Tab1ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Tab1ViewController:viewDidLoad")
+        view.backgroundColor = .red
+        
     }
 }
 
