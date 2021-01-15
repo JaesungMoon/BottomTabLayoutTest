@@ -112,20 +112,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V7t-3N-fbx">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V7t-3N-fbx">
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="kDM-hX-alF"/>
+                                </constraints>
                                 <items>
-                                    <navigationItem title="Title" id="ecR-ZZ-Lab"/>
+                                    <navigationItem title="新しい勉強タスク" id="ecR-ZZ-Lab"/>
                                 </items>
                             </navigationBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gbj-rc-pr9" userLabel="View-topview">
+                                <rect key="frame" x="0.0" y="88" width="414" height="48"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="VmN-97-0P9"/>
+                                    <constraint firstAttribute="height" constant="48" id="cYN-To-ngX"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mWN-jb-inC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="V7t-3N-fbx" firstAttribute="top" secondItem="mWN-jb-inC" secondAttribute="top" id="Kds-vt-Fw1"/>
+                            <constraint firstItem="mWN-jb-inC" firstAttribute="trailing" secondItem="Gbj-rc-pr9" secondAttribute="trailing" id="Uhh-HI-c9Z"/>
+                            <constraint firstItem="Gbj-rc-pr9" firstAttribute="leading" secondItem="mWN-jb-inC" secondAttribute="leading" id="dhA-De-LRC"/>
+                            <constraint firstItem="Gbj-rc-pr9" firstAttribute="top" secondItem="V7t-3N-fbx" secondAttribute="bottom" id="ove-EI-GF7"/>
+                            <constraint firstItem="V7t-3N-fbx" firstAttribute="leading" secondItem="mWN-jb-inC" secondAttribute="leading" id="w62-oK-3HF"/>
+                            <constraint firstItem="V7t-3N-fbx" firstAttribute="trailing" secondItem="mWN-jb-inC" secondAttribute="trailing" id="wad-v2-kfe"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 3" id="aRl-hO-Q1I"/>
                     <connections>
                         <outlet property="navItem" destination="ecR-ZZ-Lab" id="nSG-rQ-QCv"/>
+                        <outlet property="topView" destination="Gbj-rc-pr9" id="7kv-hv-2BO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdK-Hy-jkQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

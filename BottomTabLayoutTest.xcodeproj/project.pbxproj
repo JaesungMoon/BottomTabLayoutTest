@@ -19,6 +19,13 @@
 		CABEF30825B203AC00368C18 /* Tab3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF30725B203AB00368C18 /* Tab3ViewController.swift */; };
 		CABEF30D25B203CE00368C18 /* Tab4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF30C25B203CE00368C18 /* Tab4ViewController.swift */; };
 		CABEF31225B203DB00368C18 /* Tab5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF31125B203DB00368C18 /* Tab5ViewController.swift */; };
+		CABEF31725B20B6800368C18 /* ManuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF31625B20B6800368C18 /* ManuBar.swift */; };
+		CABEF31C25B20BA800368C18 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF31B25B20BA800368C18 /* UIView+Extension.swift */; };
+		CABEF32125B20BF500368C18 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF32025B20BF500368C18 /* BaseCell.swift */; };
+		CABEF32625B20C0700368C18 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF32525B20C0700368C18 /* MenuCell.swift */; };
+		CABEF32B25B20CB600368C18 /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF32A25B20CB600368C18 /* ColorUtil.swift */; };
+		CABEF33025B20CFB00368C18 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF32F25B20CFB00368C18 /* UIColor+Extension.swift */; };
+		CABEF33525B20DCB00368C18 /* UITraitCollection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF33425B20DCB00368C18 /* UITraitCollection+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +64,13 @@
 		CABEF30725B203AB00368C18 /* Tab3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab3ViewController.swift; sourceTree = "<group>"; };
 		CABEF30C25B203CE00368C18 /* Tab4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab4ViewController.swift; sourceTree = "<group>"; };
 		CABEF31125B203DB00368C18 /* Tab5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab5ViewController.swift; sourceTree = "<group>"; };
+		CABEF31625B20B6800368C18 /* ManuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManuBar.swift; sourceTree = "<group>"; };
+		CABEF31B25B20BA800368C18 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		CABEF32025B20BF500368C18 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		CABEF32525B20C0700368C18 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		CABEF32A25B20CB600368C18 /* ColorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
+		CABEF32F25B20CFB00368C18 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		CABEF33425B20DCB00368C18 /* UITraitCollection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITraitCollection+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +132,13 @@
 				CABEF30725B203AB00368C18 /* Tab3ViewController.swift */,
 				CABEF30C25B203CE00368C18 /* Tab4ViewController.swift */,
 				CABEF31125B203DB00368C18 /* Tab5ViewController.swift */,
+				CABEF31625B20B6800368C18 /* ManuBar.swift */,
+				CABEF32025B20BF500368C18 /* BaseCell.swift */,
+				CABEF32525B20C0700368C18 /* MenuCell.swift */,
+				CABEF32A25B20CB600368C18 /* ColorUtil.swift */,
+				CABEF31B25B20BA800368C18 /* UIView+Extension.swift */,
+				CABEF32F25B20CFB00368C18 /* UIColor+Extension.swift */,
+				CABEF33425B20DCB00368C18 /* UITraitCollection+Extension.swift */,
 			);
 			path = BottomTabLayoutTest;
 			sourceTree = "<group>";
@@ -271,11 +292,18 @@
 			files = (
 				CABEF30D25B203CE00368C18 /* Tab4ViewController.swift in Sources */,
 				CABEF30825B203AC00368C18 /* Tab3ViewController.swift in Sources */,
+				CABEF32625B20C0700368C18 /* MenuCell.swift in Sources */,
 				CABEF2C625AE105200368C18 /* BottomTabLayoutTest.xcdatamodeld in Sources */,
+				CABEF33525B20DCB00368C18 /* UITraitCollection+Extension.swift in Sources */,
+				CABEF32B25B20CB600368C18 /* ColorUtil.swift in Sources */,
 				CABEF2C025AE105200368C18 /* ViewController.swift in Sources */,
 				CABEF2FE25AE169200368C18 /* Tab1ViewController.swift in Sources */,
+				CABEF33025B20CFB00368C18 /* UIColor+Extension.swift in Sources */,
+				CABEF31725B20B6800368C18 /* ManuBar.swift in Sources */,
 				CABEF30325AE16C400368C18 /* Tab2ViewController.swift in Sources */,
+				CABEF32125B20BF500368C18 /* BaseCell.swift in Sources */,
 				CABEF31225B203DB00368C18 /* Tab5ViewController.swift in Sources */,
+				CABEF31C25B20BA800368C18 /* UIView+Extension.swift in Sources */,
 				CABEF2BC25AE105200368C18 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
