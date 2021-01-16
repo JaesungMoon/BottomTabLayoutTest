@@ -30,26 +30,35 @@ class BottomTabLayoutTestUITests: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
-        
+        let expectation1 = XCTestExpectation(description: "expectation1")
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            expectation1.fulfill()
+        }
+        XCTWaiter().wait(for: [expectation1], timeout: 10)
         
         let tabBar = app.tabBars["Tab Bar"]
         tabBar.buttons["Item 2"].tap()
         
-        let item3Button = tabBar.buttons["Item 3"]
-        item3Button.tap()
+        
+        let expectation2 = XCTestExpectation(description: "expectation2")
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            expectation2.fulfill()
+        }
+        XCTWaiter().wait(for: [expectation2], timeout: 10)
+        
+        tabBar.buttons["Item 3"].tap()
+        
         tabBar.buttons["Item 4"].tap()
+        
         tabBar.buttons["Item 5"].tap()
-        item3Button.tap()
+        
+        tabBar.buttons["Item 3"].tap()
         
         let collectionViewsQuery = app.collectionViews
-        let staticText = collectionViewsQuery.staticTexts["登録タスク"]
-        staticText.tap()
+        collectionViewsQuery.staticTexts["登録タスク"].tap()
         collectionViewsQuery.staticTexts["予定"].tap()
         collectionViewsQuery.staticTexts["勉強タスク"].tap()
-        staticText.tap()
-        staticText.tap()
-                
-        
+
         
     }
 
