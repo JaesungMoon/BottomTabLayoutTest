@@ -26,8 +26,11 @@
 		CABEF32B25B20CB600368C18 /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF32A25B20CB600368C18 /* ColorUtil.swift */; };
 		CABEF33025B20CFB00368C18 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF32F25B20CFB00368C18 /* UIColor+Extension.swift */; };
 		CABEF33525B20DCB00368C18 /* UITraitCollection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF33425B20DCB00368C18 /* UITraitCollection+Extension.swift */; };
-		CABEF34025B3662300368C18 /* Tab1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABEF33F25B3662300368C18 /* Tab1.storyboard */; };
-		CABEF34525B3663900368C18 /* Tab5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABEF34425B3663900368C18 /* Tab5.storyboard */; };
+		CABEF34025B3662300368C18 /* Tab1List.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABEF33F25B3662300368C18 /* Tab1List.storyboard */; };
+		CABEF34525B3663900368C18 /* Tab5Report.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABEF34425B3663900368C18 /* Tab5Report.storyboard */; };
+		CABEF35325B36D7D00368C18 /* Tab3Task.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABEF35225B36D7D00368C18 /* Tab3Task.storyboard */; };
+		CABEF35D25B36E8E00368C18 /* Tab2Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABEF35C25B36E8E00368C18 /* Tab2Calendar.storyboard */; };
+		CABEF36225B36F0F00368C18 /* Tab4Book.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABEF36125B36F0F00368C18 /* Tab4Book.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,8 +76,11 @@
 		CABEF32A25B20CB600368C18 /* ColorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
 		CABEF32F25B20CFB00368C18 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		CABEF33425B20DCB00368C18 /* UITraitCollection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITraitCollection+Extension.swift"; sourceTree = "<group>"; };
-		CABEF33F25B3662300368C18 /* Tab1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tab1.storyboard; sourceTree = "<group>"; };
-		CABEF34425B3663900368C18 /* Tab5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tab5.storyboard; sourceTree = "<group>"; };
+		CABEF33F25B3662300368C18 /* Tab1List.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tab1List.storyboard; sourceTree = "<group>"; };
+		CABEF34425B3663900368C18 /* Tab5Report.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tab5Report.storyboard; sourceTree = "<group>"; };
+		CABEF35225B36D7D00368C18 /* Tab3Task.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tab3Task.storyboard; sourceTree = "<group>"; };
+		CABEF35C25B36E8E00368C18 /* Tab2Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tab2Calendar.storyboard; sourceTree = "<group>"; };
+		CABEF36125B36F0F00368C18 /* Tab4Book.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tab4Book.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +149,11 @@
 				CABEF32F25B20CFB00368C18 /* UIColor+Extension.swift */,
 				CABEF33425B20DCB00368C18 /* UITraitCollection+Extension.swift */,
 				CABEF2C125AE105200368C18 /* Main.storyboard */,
-				CABEF33F25B3662300368C18 /* Tab1.storyboard */,
-				CABEF34425B3663900368C18 /* Tab5.storyboard */,
+				CABEF33F25B3662300368C18 /* Tab1List.storyboard */,
+				CABEF35C25B36E8E00368C18 /* Tab2Calendar.storyboard */,
+				CABEF35225B36D7D00368C18 /* Tab3Task.storyboard */,
+				CABEF36125B36F0F00368C18 /* Tab4Book.storyboard */,
+				CABEF34425B3663900368C18 /* Tab5Report.storyboard */,
 			);
 			path = BottomTabLayoutTest;
 			sourceTree = "<group>";
@@ -270,8 +279,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CABEF34525B3663900368C18 /* Tab5.storyboard in Resources */,
-				CABEF34025B3662300368C18 /* Tab1.storyboard in Resources */,
+				CABEF35325B36D7D00368C18 /* Tab3Task.storyboard in Resources */,
+				CABEF34525B3663900368C18 /* Tab5Report.storyboard in Resources */,
+				CABEF34025B3662300368C18 /* Tab1List.storyboard in Resources */,
+				CABEF35D25B36E8E00368C18 /* Tab2Calendar.storyboard in Resources */,
+				CABEF36225B36F0F00368C18 /* Tab4Book.storyboard in Resources */,
 				CABEF2C825AE105500368C18 /* Assets.xcassets in Resources */,
 				CABEF2C325AE105200368C18 /* Main.storyboard in Resources */,
 			);

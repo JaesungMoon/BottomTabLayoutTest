@@ -16,7 +16,7 @@ class Tab3ViewController: UIViewController, MenuBarDelegate {
         menuBar.horizontalBarLeftAnchorConstraint?.constant = offset
     }
     
-    @IBOutlet weak var navItem: UINavigationItem!
+//    @IBOutlet weak var navItem: UINavigationItem!
     @IBOutlet weak var topView: UIView!
     
     lazy var menuBar: MenuBar = {

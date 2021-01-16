@@ -37,7 +37,7 @@ class BottomTabLayoutTestUITests: XCTestCase {
         XCTWaiter().wait(for: [expectation1], timeout: 10)
         
         let tabBar = app.tabBars["Tab Bar"]
-        tabBar.buttons["Item 2"].tap()
+        tabBar.buttons["カレンダー"].tap()
         
         
         let expectation2 = XCTestExpectation(description: "expectation2")
@@ -46,13 +46,15 @@ class BottomTabLayoutTestUITests: XCTestCase {
         }
         XCTWaiter().wait(for: [expectation2], timeout: 10)
         
-        tabBar.buttons["Item 3"].tap()
+        tabBar.buttons["追加"].tap()
         
-        tabBar.buttons["Item 4"].tap()
+        tabBar.buttons["教材"].tap()
         
-        tabBar.buttons["Item 5"].tap()
+        tabBar.buttons["レポート"].tap()
         
-        tabBar.buttons["Item 3"].tap()
+        tabBar.buttons["タスク"].tap()
+        
+        tabBar.buttons["追加"].tap()
         
         let collectionViewsQuery = app.collectionViews
         collectionViewsQuery.staticTexts["登録タスク"].tap()

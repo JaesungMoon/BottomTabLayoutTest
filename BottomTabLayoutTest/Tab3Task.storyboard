@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cXs-Ng-WPL">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--追加-->
+        <scene sceneID="dRp-ph-VpT">
+            <objects>
+                <navigationController id="cXs-Ng-WPL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="追加" id="VSK-mr-ZaF"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Uz6-zc-8jr">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="hCv-Av-Hfk" kind="relationship" relationship="rootViewController" id="h6F-vg-7jt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q50-xv-2rz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1995" y="-308"/>
+        </scene>
+        <!--Tab3 View Controller-->
+        <scene sceneID="5Im-ys-Nxi">
+            <objects>
+                <viewController id="hCv-Av-Hfk" customClass="Tab3ViewController" customModule="BottomTabLayoutTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="43I-Nq-pnL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7gs-EO-hqY" userLabel="View-topview">
+                                <rect key="frame" x="0.0" y="88" width="414" height="48"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="0uL-W7-vCC"/>
+                                    <constraint firstAttribute="height" constant="48" id="I2g-Ja-DE5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UoX-JV-W1d"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7gs-EO-hqY" firstAttribute="top" secondItem="UoX-JV-W1d" secondAttribute="top" id="a7b-qT-8qx"/>
+                            <constraint firstItem="UoX-JV-W1d" firstAttribute="trailing" secondItem="7gs-EO-hqY" secondAttribute="trailing" id="cV4-k3-vX9"/>
+                            <constraint firstItem="7gs-EO-hqY" firstAttribute="leading" secondItem="UoX-JV-W1d" secondAttribute="leading" id="n2y-qL-gh4"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="aqe-bY-GA8"/>
+                    <connections>
+                        <outlet property="topView" destination="7gs-EO-hqY" id="AqU-FM-Emo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XSA-mo-ZdX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1177" y="-308"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
