@@ -26,6 +26,8 @@
 		CABEF32B25B20CB600368C18 /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF32A25B20CB600368C18 /* ColorUtil.swift */; };
 		CABEF33025B20CFB00368C18 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF32F25B20CFB00368C18 /* UIColor+Extension.swift */; };
 		CABEF33525B20DCB00368C18 /* UITraitCollection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF33425B20DCB00368C18 /* UITraitCollection+Extension.swift */; };
+		CABEF34025B3662300368C18 /* Tab1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABEF33F25B3662300368C18 /* Tab1.storyboard */; };
+		CABEF34525B3663900368C18 /* Tab5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABEF34425B3663900368C18 /* Tab5.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		CABEF32A25B20CB600368C18 /* ColorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
 		CABEF32F25B20CFB00368C18 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		CABEF33425B20DCB00368C18 /* UITraitCollection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITraitCollection+Extension.swift"; sourceTree = "<group>"; };
+		CABEF33F25B3662300368C18 /* Tab1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tab1.storyboard; sourceTree = "<group>"; };
+		CABEF34425B3663900368C18 /* Tab5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tab5.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +127,6 @@
 			children = (
 				CABEF2BB25AE105200368C18 /* AppDelegate.swift */,
 				CABEF2BF25AE105200368C18 /* ViewController.swift */,
-				CABEF2C125AE105200368C18 /* Main.storyboard */,
 				CABEF2C725AE105500368C18 /* Assets.xcassets */,
 				CABEF2CC25AE105500368C18 /* Info.plist */,
 				CABEF2C425AE105200368C18 /* BottomTabLayoutTest.xcdatamodeld */,
@@ -139,6 +142,9 @@
 				CABEF31B25B20BA800368C18 /* UIView+Extension.swift */,
 				CABEF32F25B20CFB00368C18 /* UIColor+Extension.swift */,
 				CABEF33425B20DCB00368C18 /* UITraitCollection+Extension.swift */,
+				CABEF2C125AE105200368C18 /* Main.storyboard */,
+				CABEF33F25B3662300368C18 /* Tab1.storyboard */,
+				CABEF34425B3663900368C18 /* Tab5.storyboard */,
 			);
 			path = BottomTabLayoutTest;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CABEF34525B3663900368C18 /* Tab5.storyboard in Resources */,
+				CABEF34025B3662300368C18 /* Tab1.storyboard in Resources */,
 				CABEF2C825AE105500368C18 /* Assets.xcassets in Resources */,
 				CABEF2C325AE105200368C18 /* Main.storyboard in Resources */,
 			);

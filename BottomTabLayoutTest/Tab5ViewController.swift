@@ -12,7 +12,7 @@ class Tab5ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Tab5ViewController:viewDidLoad")
-        view.backgroundColor = .blue
+        
     }
     
 }
