@@ -35,6 +35,8 @@
 		CABEF37225B4A77000368C18 /* TaskBookSubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF37125B4A77000368C18 /* TaskBookSubjectView.swift */; };
 		CABEF37A25B4AB2200368C18 /* TaskBookView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CABEF37925B4AB2200368C18 /* TaskBookView.xib */; };
 		CABEF37F25B4AB3200368C18 /* TaskBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF37E25B4AB3200368C18 /* TaskBookView.swift */; };
+		CABEF38425B4B3BB00368C18 /* TaskPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF38325B4B3BB00368C18 /* TaskPlanView.swift */; };
+		CABEF38925B4B3E000368C18 /* TaskPlanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CABEF38825B4B3E000368C18 /* TaskPlanView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,8 @@
 		CABEF37125B4A77000368C18 /* TaskBookSubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBookSubjectView.swift; sourceTree = "<group>"; };
 		CABEF37925B4AB2200368C18 /* TaskBookView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskBookView.xib; sourceTree = "<group>"; };
 		CABEF37E25B4AB3200368C18 /* TaskBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBookView.swift; sourceTree = "<group>"; };
+		CABEF38325B4B3BB00368C18 /* TaskPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPlanView.swift; sourceTree = "<group>"; };
+		CABEF38825B4B3E000368C18 /* TaskPlanView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskPlanView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +170,8 @@
 				CABEF37125B4A77000368C18 /* TaskBookSubjectView.swift */,
 				CABEF37925B4AB2200368C18 /* TaskBookView.xib */,
 				CABEF37E25B4AB3200368C18 /* TaskBookView.swift */,
+				CABEF38825B4B3E000368C18 /* TaskPlanView.xib */,
+				CABEF38325B4B3BB00368C18 /* TaskPlanView.swift */,
 			);
 			path = BottomTabLayoutTest;
 			sourceTree = "<group>";
@@ -297,6 +303,7 @@
 				CABEF34025B3662300368C18 /* Tab1List.storyboard in Resources */,
 				CABEF35D25B36E8E00368C18 /* Tab2Calendar.storyboard in Resources */,
 				CABEF36225B36F0F00368C18 /* Tab4Book.storyboard in Resources */,
+				CABEF38925B4B3E000368C18 /* TaskPlanView.xib in Resources */,
 				CABEF37A25B4AB2200368C18 /* TaskBookView.xib in Resources */,
 				CABEF2C825AE105500368C18 /* Assets.xcassets in Resources */,
 				CABEF2C325AE105200368C18 /* Main.storyboard in Resources */,
@@ -324,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CABEF38425B4B3BB00368C18 /* TaskPlanView.swift in Sources */,
 				CABEF30D25B203CE00368C18 /* Tab4ViewController.swift in Sources */,
 				CABEF37F25B4AB3200368C18 /* TaskBookView.swift in Sources */,
 				CABEF30825B203AC00368C18 /* Tab3ViewController.swift in Sources */,

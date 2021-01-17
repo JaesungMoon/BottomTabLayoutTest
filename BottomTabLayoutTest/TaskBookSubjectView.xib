@@ -23,6 +23,9 @@
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="lxs-BX-ncL"/>
+                    </connections>
                 </textField>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uRk-Cx-Tzk">
                     <rect key="frame" x="0.0" y="89" width="414" height="773"/>
@@ -64,11 +67,6 @@
                                         <constraint firstAttribute="height" constant="156" id="6Af-So-1YY"/>
                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="156" id="eN5-oB-37X"/>
                                     </constraints>
-                                    <userDefinedRuntimeAttributes>
-                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                            <real key="value" value="1"/>
-                                        </userDefinedRuntimeAttribute>
-                                    </userDefinedRuntimeAttributes>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b3z-kL-EgM" userLabel="locationFrameView">
                                     <rect key="frame" x="0.0" y="235" width="414" height="131"/>
@@ -117,6 +115,9 @@
                 <constraint firstItem="uRk-Cx-Tzk" firstAttribute="top" secondItem="iqp-NE-TFO" secondAttribute="bottom" id="YbK-yt-V8e"/>
                 <constraint firstItem="iqp-NE-TFO" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="w7e-j4-deK"/>
             </constraints>
+            <connections>
+                <outlet property="textFieldTitle" destination="iqp-NE-TFO" id="qOJ-Da-hhU"/>
+            </connections>
             <point key="canvasLocation" x="14" y="133"/>
         </view>
     </objects>
