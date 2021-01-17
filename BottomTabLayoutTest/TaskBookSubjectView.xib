@@ -16,7 +16,7 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iqp-NE-TFO">
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Placeholder Text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iqp-NE-TFO">
                     <rect key="frame" x="0.0" y="44" width="414" height="45"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="45" id="MJu-e8-ORG"/>

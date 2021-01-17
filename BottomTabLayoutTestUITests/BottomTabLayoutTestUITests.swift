@@ -57,10 +57,26 @@ class BottomTabLayoutTestUITests: XCTestCase {
         tabBar.buttons["追加"].tap()
         
         let collectionViewsQuery = app.collectionViews
+        collectionViewsQuery.staticTexts["勉強タスク"].tap()
         collectionViewsQuery.staticTexts["登録タスク"].tap()
         collectionViewsQuery.staticTexts["予定"].tap()
-        collectionViewsQuery.staticTexts["勉強タスク"].tap()
+        
 
+        collectionViewsQuery.staticTexts["登録タスク"].tap()
+        let expectation3 = XCTestExpectation(description: "expectation3")
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            expectation3.fulfill()
+        }
+        XCTWaiter().wait(for: [expectation3], timeout: 10)
+        
+        
+        tabBar.buttons["追加"].tap()
+        collectionViewsQuery.staticTexts["勉強タスク"].tap()
+        
+        app.scrollViews.otherElements.textFields["Placeholder Text"].tap()
+        
+        app.typeText("dummy title")
+        app.buttons["Return"].tap()
         
     }
 
