@@ -43,23 +43,34 @@
                                     <constraint firstAttribute="height" constant="48" id="I2g-Ja-DE5"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TWp-zR-reu">
+                                <rect key="frame" x="0.0" y="136" width="414" height="677"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UoX-JV-W1d"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="UoX-JV-W1d" firstAttribute="bottom" secondItem="TWp-zR-reu" secondAttribute="bottom" id="FK8-0J-QLe"/>
+                            <constraint firstItem="UoX-JV-W1d" firstAttribute="trailing" secondItem="TWp-zR-reu" secondAttribute="trailing" id="LfC-Ub-Psl"/>
+                            <constraint firstItem="TWp-zR-reu" firstAttribute="top" secondItem="7gs-EO-hqY" secondAttribute="bottom" id="a5H-0O-Azt"/>
                             <constraint firstItem="7gs-EO-hqY" firstAttribute="top" secondItem="UoX-JV-W1d" secondAttribute="top" id="a7b-qT-8qx"/>
                             <constraint firstItem="UoX-JV-W1d" firstAttribute="trailing" secondItem="7gs-EO-hqY" secondAttribute="trailing" id="cV4-k3-vX9"/>
                             <constraint firstItem="7gs-EO-hqY" firstAttribute="leading" secondItem="UoX-JV-W1d" secondAttribute="leading" id="n2y-qL-gh4"/>
+                            <constraint firstItem="TWp-zR-reu" firstAttribute="leading" secondItem="UoX-JV-W1d" secondAttribute="leading" id="r9u-om-5Jc"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="aqe-bY-GA8"/>
+                    <navigationItem key="navigationItem" id="aqe-bY-GA8">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="Gtg-uT-OyR"/>
+                    </navigationItem>
                     <connections>
+                        <outlet property="contentView" destination="TWp-zR-reu" id="a8T-ET-Rli"/>
                         <outlet property="topView" destination="7gs-EO-hqY" id="AqU-FM-Emo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XSA-mo-ZdX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1177" y="-308"/>
+            <point key="canvasLocation" x="-1178.2608695652175" y="-308.03571428571428"/>
         </scene>
     </scenes>
     <resources>

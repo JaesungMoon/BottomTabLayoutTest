@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TaskBookView" customModule="BottomTabLayoutTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Xr-Bn-lGM">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vig-Zp-Xen" userLabel="View - content">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="900"/>
+                            <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="900" id="ugk-s8-ZF0"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Vig-Zp-Xen" firstAttribute="bottom" secondItem="bpq-uH-ub0" secondAttribute="bottom" id="0Q4-ze-ovX"/>
+                        <constraint firstItem="Vig-Zp-Xen" firstAttribute="trailing" secondItem="bpq-uH-ub0" secondAttribute="trailing" id="7FU-8U-LHt"/>
+                        <constraint firstItem="bpq-uH-ub0" firstAttribute="top" secondItem="Vig-Zp-Xen" secondAttribute="top" id="8gT-go-vOH"/>
+                        <constraint firstItem="Vig-Zp-Xen" firstAttribute="width" secondItem="fAP-r5-vv2" secondAttribute="width" id="Coa-b0-cO3"/>
+                        <constraint firstItem="Vig-Zp-Xen" firstAttribute="leading" secondItem="bpq-uH-ub0" secondAttribute="leading" id="Hni-M9-Pfp"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="bpq-uH-ub0"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="fAP-r5-vv2"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="2Xr-Bn-lGM" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="4P9-jw-b81"/>
+                <constraint firstItem="2Xr-Bn-lGM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="SfO-fl-dX0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="2Xr-Bn-lGM" secondAttribute="bottom" id="eE3-iP-c1i"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="2Xr-Bn-lGM" secondAttribute="trailing" id="gad-1f-oer"/>
+            </constraints>
+            <point key="canvasLocation" x="-272.46376811594206" y="58.928571428571423"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
